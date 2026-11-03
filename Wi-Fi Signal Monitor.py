@@ -51,7 +51,7 @@ def quality_label(dbm):
     if dbm >= GOOD_THRESHOLD: return "Excellent"
     if dbm >= FAIR_THRESHOLD: return "Fair"
     return "Poor"
-# Added 54th line to test
+
 # ── Plot setup ────────────────────────────────────────────────────────────────
 BG    = "#0d0f14"
 PANEL = "#13161e"
